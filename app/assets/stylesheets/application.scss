@@ -53,3 +53,12 @@ body {
   .control-label {
     display: none;
   }
+
+  @media screen and (min-width: 767px) {
+    .mobile-menu {
+      display: none !important;
+    }
+    .pc-menu {
+        display: none !important;
+    }
+  }
