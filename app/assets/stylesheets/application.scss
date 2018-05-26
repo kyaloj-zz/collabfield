@@ -7,3 +7,49 @@
 body {
   margin-top: 50px;
 }
+
+#sign-up-form {
+    margin-top: 100px;
+    h1 {
+      font-size: 36px !important;
+      font-size: 3.6rem !important;
+    }
+    text-align: center;
+    padding-bottom: 20px; 
+    
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: $backgroundColor;
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+  
+  i {
+    width: 26px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a:hover, a:active, a:link, a:visited {
+    text-decoration: none;
+  }
+  
+  .control-label {
+    display: none;
+  }
